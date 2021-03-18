@@ -1,0 +1,23 @@
+{
+  "name": "hims_api",
+  "version": "1.0.0",
+  "description": "Online movie database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+ 
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
